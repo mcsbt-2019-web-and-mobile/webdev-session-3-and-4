@@ -170,14 +170,37 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section><section id="exercise1" class="slide level2">
 <h2>exercise1</h2>
 </section></section>
-<section><section id="state" class="title-slide slide level1"><h1>state</h1></section><section id="web-architecture" class="slide level2">
-<h2>web architecture</h2>
-</section><section id="components" class="slide level2">
-<h2>components</h2>
-</section><section id="props-1" class="slide level2">
-<h2>props</h2>
-</section><section id="state-1" class="slide level2">
+<section><section id="state" class="title-slide slide level1"><h1>state</h1></section><section id="state-1" class="slide level2">
 <h2>state</h2>
+<p>There are some components that need an internal state. We use internal state to make components remember some data. It can be simple values such as a boolean flag, or an integer, or bigger things such an object.</p>
+</section><section id="state.-example3" class="slide level2">
+<h2>state. Example3</h2>
+<p>Let’s see an example of a component using state. Open example3.</p>
+</section><section id="lifting-state" class="slide level2">
+<h2>lifting state</h2>
+<p>State is internal to the component, and can’t be inspected from the outside. This makes it <strong>very</strong> important to think ahead of time where the state should be in the components.</p>
+</section><section id="lifting-state-1" class="slide level2">
+<h2>lifting state</h2>
+<p>Whenever you have a parent component and a child component and they need to share state, the way to go is to store the state in the parent component and pass it downstream to their children <strong>as props</strong>.</p>
+</section><section id="lifting-state.-example4" class="slide level2">
+<h2>lifting state. Example4</h2>
+<p>Let’s see example4.</p>
+</section><section id="lifting-state.-exercise2" class="slide level2">
+<h2>lifting state. exercise2</h2>
+<p>Do exercise2</p>
+</section></section>
+<section><section id="recap" class="title-slide slide level1"><h1>Recap</h1></section><section id="react-1" class="slide level2">
+<h2>React</h2>
+<p>A JS library for building user interfaces.</p>
+</section><section id="components" class="slide level2">
+<h2>Components</h2>
+<p>Each one of the pieces of React UI. They have some meaning in the react interface.</p>
+</section><section id="props-1" class="slide level2">
+<h2>Props</h2>
+<p>Input data for components.</p>
+</section><section id="state-2" class="slide level2">
+<h2>State</h2>
+<p>Data internal to the component that components remember.</p>
 </section></section>
     </div>
   </div>

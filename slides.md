@@ -136,9 +136,29 @@ internal state to make components remember some data.  It can be
 simple values such as a boolean flag, or an integer, or bigger things
 such an object.
 
-## state
+## state. Example3
 
-Let's see an example of a component using state.  Open example 3.
+Let's see an example of a component using state.  Open example3.
+
+## lifting state
+
+State is internal to the component, and can't be inspected from the
+outside.  This makes it **very** important to think ahead of time
+where the state should be in the components.
+
+## lifting state
+
+Whenever you have a parent component and a child component and they
+need to share state, the way to go is to store the state in the parent
+component and pass it downstream to their children **as props**.
+
+## lifting state. Example4
+
+Let's see example4.
+
+## lifting state. exercise2
+
+Do exercise2
 
 # Recap
 
