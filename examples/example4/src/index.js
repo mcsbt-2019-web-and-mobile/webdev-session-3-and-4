@@ -4,7 +4,7 @@ import "./index.css";
 
 class SearchInput extends React.Component {
   render() {
-    return <input id="search" className="form-control" type="text" placeholder="input something" onKeyPress={this.props.handleKeyPress}/>
+    return <input id="search" className="form-control" type="text" placeholder="input something" onChange={this.props.handleKeyPress}/>
   }
 }
 
