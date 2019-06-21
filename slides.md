@@ -129,7 +129,32 @@ See example2
 
 # state
 
-## web architecture
-## components
-## props
 ## state
+
+There are some components that need an internal state.  We use
+internal state to make components remember some data.  It can be
+simple values such as a boolean flag, or an integer, or bigger things
+such an object.
+
+## state
+
+Let's see an example of a component using state.  Open example 3.
+
+# Recap
+
+## React
+
+A JS library for building user interfaces.
+
+## Components
+
+Each one of the pieces of React UI.  They have some meaning in the
+react interface.
+
+## Props
+
+Input data for components.
+
+## State
+
+Data internal to the component that components remember.
