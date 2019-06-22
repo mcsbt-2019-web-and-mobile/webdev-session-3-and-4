@@ -2,7 +2,7 @@
 
 For this exercise you're asked to build a menu that contains three
 items.  When an item is clicked, it should become active.  See the
-example of what it means to become active in [Bootstrap's documentation][boostrap-pills-menu];
+example of what it means to become active in [Bootstrap's documentation][bootstrap-pills-menu];
 
 ## create react app
 
