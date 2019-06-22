@@ -8,7 +8,7 @@ author: Pepe García
 
 _A Javascript library for building user interfaces_
 
-# Core components
+# Components
 
 React interfaces are based in components.  What is a component?  A
 component is a unit of functionality in the UI.
@@ -140,7 +140,7 @@ such an object.
 
 Let's see an example of a component using state.  Open example3.
 
-## lifting state
+# lifting state
 
 State is internal to the component, and can't be inspected from the
 outside.  This makes it **very** important to think ahead of time
@@ -158,7 +158,11 @@ Let's see example4.
 
 ## lifting state. exercise2
 
-Do exercise2
+Do exercise2.
+
+# Wrapping up exercise
+
+open exercise3.
 
 # Recap
 
@@ -178,3 +182,9 @@ Input data for components.
 ## State
 
 Data internal to the component that components remember.
+
+
+## bibliography
+
+- [react docs](https://reactjs.org)
+- [adalab book](https://books.adalab.es/materiales-front-end-f)
